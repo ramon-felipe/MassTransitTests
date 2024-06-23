@@ -21,9 +21,9 @@ builder.Services.AddMassTransit(cfg =>
 {
     cfg.SetKebabCaseEndpointNameFormatter();
 
-    // cfg.AddConsumers(typeof(Program).Assembly);
+    cfg.AddConsumers(typeof(Program).Assembly);
 
-    cfg.AddConsumer<TestConsumer>();
+    // cfg.AddConsumer<TestConsumer>();
 
     cfg.UsingRabbitMq((ctx, cfg) =>
     {

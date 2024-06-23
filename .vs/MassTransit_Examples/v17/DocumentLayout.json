@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\consumers\\testconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\consumers\\testconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,48 @@
       "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\contracts\\testmessageevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\contracts\\testmessageevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\messagebrokersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\messagebrokersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E267DDDA-DFEB-4CA3-BFEF-F61ECA4D0461}|test01\\Publisher\\Publisher.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\test01\\publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E267DDDA-DFEB-4CA3-BFEF-F61ECA4D0461}|test01\\Publisher\\Publisher.csproj|solutionrelative:test01\\publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\workerservice1\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|solutionrelative:workerservice1\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\workerservice1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|solutionrelative:workerservice1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\workerservice1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|solutionrelative:workerservice1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\workerservice1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AA0B8DD-A6CA-4047-A875-928D2141B601}|WorkerService1\\WorkerService1.csproj|solutionrelative:workerservice1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4ACC9809-ABD8-4990-8BA2-6341B79F62AC}|Worker\\TestRabbit.csproj|solutionrelative:worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E267DDDA-DFEB-4CA3-BFEF-F61ECA4D0461}|test01\\Publisher\\Publisher.csproj|c:\\projects\\personal\\messagebus\\masstransit_examples\\test01\\publisher\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 23,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,85 +154,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WorkerService1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WorkerService1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T18:26:39.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WorkerService1\\appsettings.Development.json",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\appsettings.Development.json",
+              "RelativeToolTip": "WorkerService1\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T18:26:26.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Worker\\appsettings.Development.json",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\appsettings.Development.json",
+              "RelativeToolTip": "Worker\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T18:02:29.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestMessageEvent.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Contracts\\TestMessageEvent.cs",
+              "RelativeDocumentMoniker": "Worker\\Contracts\\TestMessageEvent.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Contracts\\TestMessageEvent.cs",
+              "RelativeToolTip": "Worker\\Contracts\\TestMessageEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:00:34.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IEventBus.cs",
               "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\IEventBus.cs",
               "RelativeDocumentMoniker": "Worker\\IEventBus.cs",
               "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\IEventBus.cs",
               "RelativeToolTip": "Worker\\IEventBus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T22:08:43.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestConsumer.cs",
-              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Consumers\\TestConsumer.cs",
-              "RelativeDocumentMoniker": "Worker\\Consumers\\TestConsumer.cs",
-              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Consumers\\TestConsumer.cs",
-              "RelativeToolTip": "Worker\\Consumers\\TestConsumer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T21:52:25.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Program.cs",
-              "RelativeDocumentMoniker": "Worker\\Program.cs",
-              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Program.cs",
-              "RelativeToolTip": "Worker\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T21:32:10.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GettingStartedConsumer.cs",
-              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
-              "RelativeDocumentMoniker": "test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
-              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
-              "RelativeToolTip": "test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAArwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T15:29:27.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HelloMessage.cs",
-              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Contracts\\HelloMessage.cs",
-              "RelativeDocumentMoniker": "test01\\Publisher\\Contracts\\HelloMessage.cs",
-              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Contracts\\HelloMessage.cs",
-              "RelativeToolTip": "test01\\Publisher\\Contracts\\HelloMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T15:28:01.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Worker.cs",
-              "RelativeDocumentMoniker": "test01\\Publisher\\Worker.cs",
-              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Worker.cs",
-              "RelativeToolTip": "test01\\Publisher\\Worker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T15:18:09.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Program.cs",
               "RelativeDocumentMoniker": "test01\\Publisher\\Program.cs",
@@ -205,7 +232,147 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "TestConsumer.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Consumers\\TestConsumer.cs",
+              "RelativeDocumentMoniker": "Worker\\Consumers\\TestConsumer.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Consumers\\TestConsumer.cs",
+              "RelativeToolTip": "Worker\\Consumers\\TestConsumer.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:52:25.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Worker\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Worker\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T18:01:32.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Program.cs",
+              "RelativeDocumentMoniker": "Worker\\Program.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Program.cs*",
+              "RelativeToolTip": "Worker\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:32:10.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MessageBrokerSettings.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\MessageBrokerSettings.cs",
+              "RelativeDocumentMoniker": "Worker\\MessageBrokerSettings.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\MessageBrokerSettings.cs",
+              "RelativeToolTip": "Worker\\MessageBrokerSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:00:43.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Worker.cs",
+              "RelativeDocumentMoniker": "Worker\\Worker.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\Worker.cs",
+              "RelativeToolTip": "Worker\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:01:06.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\Program.cs",
+              "RelativeDocumentMoniker": "WorkerService1\\Program.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\Program.cs",
+              "RelativeToolTip": "WorkerService1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:26:44.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\Worker.cs",
+              "RelativeDocumentMoniker": "WorkerService1\\Worker.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\Worker.cs",
+              "RelativeToolTip": "WorkerService1\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T18:26:46.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "Worker\\appsettings.json",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\Worker\\appsettings.json",
+              "RelativeToolTip": "Worker\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-21T18:01:36.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GettingStartedConsumer.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
+              "RelativeDocumentMoniker": "test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
+              "RelativeToolTip": "test01\\Publisher\\Consumers\\GettingStartedConsumer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAArwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:29:27.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HelloMessage.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Contracts\\HelloMessage.cs",
+              "RelativeDocumentMoniker": "test01\\Publisher\\Contracts\\HelloMessage.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Contracts\\HelloMessage.cs",
+              "RelativeToolTip": "test01\\Publisher\\Contracts\\HelloMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:28:01.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Worker.cs",
+              "RelativeDocumentMoniker": "test01\\Publisher\\Worker.cs",
+              "ToolTip": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Worker.cs",
+              "RelativeToolTip": "test01\\Publisher\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:18:09.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "test01\\Publisher\\Properties\\launchSettings.json",
@@ -213,12 +380,11 @@
               "RelativeToolTip": "test01\\Publisher\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-02T15:20:08.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T15:20:08.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Publisher.csproj",
               "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\test01\\Publisher\\Publisher.csproj",
               "RelativeDocumentMoniker": "test01\\Publisher\\Publisher.csproj",
@@ -226,12 +392,11 @@
               "RelativeToolTip": "test01\\Publisher\\Publisher.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-02T15:17:13.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T15:17:13.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\projects\\personal\\MessageBus\\MassTransit_Examples\\WorkerService1\\appsettings.json",
               "RelativeDocumentMoniker": "WorkerService1\\appsettings.json",
@@ -239,8 +404,7 @@
               "RelativeToolTip": "WorkerService1\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-02T15:14:55.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T15:14:55.671Z"
             }
           ]
         },
