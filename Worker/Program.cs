@@ -1,11 +1,10 @@
-
-using MassTransit;
-using MassTransit.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using System.Diagnostics;
+using System.Text.Json;
 using TestRabbit;
-using TestRabbit.Consumers;
 using TestRabbit.Contracts;
+using TestRabbit.EventBus;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,27 +16,7 @@ builder.Services.Configure<MessageBrokerSettings>(builder.Configuration.GetSecti
 builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<MessageBrokerSettings>>().Value);
 
 
-builder.Services.AddMassTransit(cfg =>
-{
-    cfg.SetKebabCaseEndpointNameFormatter();
-
-    cfg.AddConsumers(typeof(Program).Assembly);
-
-    // cfg.AddConsumer<TestConsumer>();
-
-    cfg.UsingRabbitMq((ctx, cfg) =>
-    {
-        var settings = ctx.GetRequiredService<MessageBrokerSettings>();
-
-        cfg.Host(settings.Host, settings.VirtualHost, h =>
-        {
-            h.Username(settings.User);
-            h.Password(settings.Password);
-        });
-
-        cfg.ConfigureEndpoints(ctx);
-    });
-});
+builder.Services.ConfigMassTransit();
 
 builder.Services.AddTransient<IEventBus, EventBus>();
 
@@ -54,9 +33,15 @@ app.UseHttpsRedirection();
 
 app.MapGet("/publish", async ([FromServices] IEventBus bus) =>
 {
+    var sw = new Stopwatch();
+    sw.Start();
     var msg = new TestMessageEvent { Id = 1, MyProperty = DateTimeOffset.Now.ToString() };
-    await bus.PublishAsync(msg);
 
+    app.Logger.LogInformation("Publish Init...");
+    await bus.PublishAsync(msg);
+    app.Logger.LogInformation("Publish end. time spent: {Time} (ms)", sw.ElapsedMilliseconds);
+
+    sw.Stop();
     return msg;
 })
 .WithName("Publish")
@@ -64,32 +49,3 @@ app.MapGet("/publish", async ([FromServices] IEventBus bus) =>
 ;
 
 app.Run();
-
-//builder.Services.AddHostedService<Worker>();
-
-//builder.Services.Configure<MessageBrokerSettings>(builder.Configuration.GetSection("MessageBrokerSettings"));
-
-//builder.Services.AddSingleton(sp => sp.GetRequiredService<IOptions<MessageBrokerSettings>>().Value);
-
-//builder.Services.AddMassTransit(cfg =>
-//{
-//    cfg.SetKebabCaseEndpointNameFormatter();
-
-//    cfg.AddConsumers(typeof(Program).Assembly);
-
-//    cfg.UsingRabbitMq((ctx, cfg) =>
-//    {
-//        var settings = ctx.GetRequiredService<MessageBrokerSettings>();
-
-//        cfg.Host(settings.Host, settings.VirtualHost, h =>
-//        {
-//            h.Username(settings.User);
-//            h.Password(settings.Password);
-//        });
-//    });
-//});
-
-//builder.Services.AddTransient<IEventBus, EventBus>();
-
-//var host = builder.Build();
-//host.Run();

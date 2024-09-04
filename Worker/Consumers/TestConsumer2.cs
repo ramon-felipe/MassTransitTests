@@ -1,4 +1,5 @@
 ﻿using MassTransit;
+using System.Diagnostics;
 using System.Text.Json;
 using TestRabbit.Contracts;
 
@@ -13,10 +14,15 @@ public sealed class TestConsumer2 : IConsumer<TestMessageEvent>
         this._logger = logger;
     }
 
-    public Task Consume(ConsumeContext<TestMessageEvent> context)
+    public async Task Consume(ConsumeContext<TestMessageEvent> context)
     {
-        this._logger.LogInformation("Message received by consumer2! {Message}", JsonSerializer.Serialize(context.Message));
+        var sw = new Stopwatch();
+        sw.Start();
+        this._logger.LogInformation("Message received by consumer 2! {Message}", JsonSerializer.Serialize(context.Message));
 
-        return Task.CompletedTask;
+        await Task.Delay(3000);
+        this._logger.LogInformation("Processment by consumer 2 concluded! {Message} - time spent: {Time} (ms)", JsonSerializer.Serialize(context.Message), sw.ElapsedMilliseconds);
+        
+        sw.Stop();
     }
 }
