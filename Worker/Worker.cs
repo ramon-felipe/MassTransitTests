@@ -1,6 +1,6 @@
+using MassTransit.Infrastructure;
 using System.Text.Json;
 using TestRabbit.Contracts;
-using TestRabbit.EventBus;
 
 namespace TestRabbit;
 
@@ -32,4 +32,4 @@ public class Worker : BackgroundService
 
         _logger.LogWarning("Worker stoppd at: {Time}", DateTimeOffset.Now);
     }
-}
+} 

@@ -1,4 +1,8 @@
 ﻿using MassTransit;
+using MassTransit.Transports.Fabric;
+using RabbitMQ.Client;
+using TestRabbit.Consumers;
+using TestRabbit.Contracts;
 
 namespace TestRabbit;
 
@@ -11,6 +15,8 @@ public static class MassTransitCfg
             cfg.SetKebabCaseEndpointNameFormatter();
 
             cfg.AddConsumers(typeof(Program).Assembly);
+            cfg.AddConsumer<TestCreateWorkItemConsumer>();
+            // cfg.AddConsumer<TestCreateWorkItemConsumer, TestCreateWorkItemConsumerDefinition>();
 
             cfg.UsingRabbitMq((ctx, cfg) =>
             {
@@ -22,8 +28,8 @@ public static class MassTransitCfg
                     h.Password(settings.Password);
                 });
 
+                // cfg.ConfigureNewDirectExchange();
                 cfg.ConfigureEndpoints(ctx);
-                cfg.ConfigureNewDirectExchange();
             });
         });
 
@@ -42,5 +48,47 @@ public static class MassTransitCfg
                 x.RoutingKey = "dog";
             });
         });
+    }
+
+    
+}
+
+public static class ConfigureCreateWorkItemExchange2
+{
+    public static void ConfigureWorkItem2(this IRabbitMqBusFactoryConfigurator cfg, IBusRegistrationContext ctx)
+    {
+        cfg.ReceiveEndpoint("test-create-work-item1", e =>
+        {
+            e.ConfigureConsumeTopology = false;
+
+            e.Bind("x-test-create-work-item", x =>
+            {
+                x.RoutingKey = "test1";
+                x.ExchangeType = RabbitMQ.Client.ExchangeType.Direct;
+            });
+            // e.Consumer<TestCreateWorkItemConsumer>();
+        });
+
+        cfg.ReceiveEndpoint("test-create-work-item2", e =>
+        {
+            e.ConfigureConsumeTopology = false;
+            e.Bind("x-test-create-work-item", x =>
+            {
+                x.RoutingKey = "test1";
+                x.ExchangeType = RabbitMQ.Client.ExchangeType.Direct;
+            });
+            // e.Consumer<TestCreateWorkItemConsumer>();
+        });
+
+        //cfg.ReceiveEndpoint("test-create-work-item2", e =>
+        //{
+        //    e.ConfigureConsumeTopology = false;
+        //    e.Bind("x-test-create-work-item", x =>
+        //    {
+        //        x.RoutingKey = "test2";
+        //        x.ExchangeType = RabbitMQ.Client.ExchangeType.Direct;
+        //    });
+        //    e.Consumer<TestCreateWorkItemConsumer>();
+        //});
     }
 }
