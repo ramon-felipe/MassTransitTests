@@ -14,7 +14,9 @@ public static class MassTransitCfg
         {
             cfg.SetKebabCaseEndpointNameFormatter();
 
-            cfg.AddConsumers(typeof(Program).Assembly);
+            // cfg.AddConsumers(typeof(Program).Assembly);
+            cfg.AddConsumer<TestMessageEventConsumer, TestMessageEventConsumerDefinition>();
+            cfg.AddConsumer<TestMessageEventConsumer2>();
             cfg.AddConsumer<TestCreateWorkItemConsumer>();
             // cfg.AddConsumer<TestCreateWorkItemConsumer, TestCreateWorkItemConsumerDefinition>();
 

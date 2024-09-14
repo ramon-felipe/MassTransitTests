@@ -37,12 +37,14 @@ app.MapGet("/publish", async ([FromServices] IEventBus bus) =>
 {
     var sw = new Stopwatch();
     sw.Start();
-    // var msg = new TestMessageEvent { Id = 1, MyProperty = DateTimeOffset.Now.ToString() };
-    var msg = new CreateWorkItem { WorkItem = new MassTransit.Domain.WorkItem { Id = 1, Name = "test work item" } };
+    var msg = new TestMessageEvent { Id = 1, MyProperty = DateTimeOffset.Now.ToString() };
+    var msg2 = new TestMessageEvent { Id = 1, MyProperty = string.Empty };
+    // var msg = new CreateWorkItem { WorkItem = new MassTransit.Domain.WorkItem { Id = 1, Name = "test work item" } };
 
     app.Logger.LogInformation("Publish Init...");
 
     await bus.PublishAsync(msg);
+    await bus.PublishAsync(msg2);
 
     app.Logger.LogInformation("Publish end. time spent: {Time} (ms)", sw.ElapsedMilliseconds);
 

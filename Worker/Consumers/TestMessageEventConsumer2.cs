@@ -22,9 +22,9 @@ public sealed class TestMessageEventConsumer2 : IConsumer<TestMessageEvent>
         this._logger.LogInformation("Message received by consumer {Consumer}! {Message}", this.GetType().Name, JsonSerializer.Serialize(context.Message));
 
         var msg = new CreateWorkItem { WorkItem = new WorkItem { Id = 2, Name = "t" } };
-        await context.Send(new Uri("x-test-create-work-item"), msg);
+        await context.Send(new Uri("exchange:x-test-create-work-item"), msg);
 
-        await Task.Delay(3000);
+        await Task.Delay(1000);
         this._logger.LogInformation("Processment by consumer {Consumer} concluded! {Message} - time spent: {Time} (ms)", this.GetType().Name, JsonSerializer.Serialize(context.Message), sw.ElapsedMilliseconds);       
 
         sw.Stop();
